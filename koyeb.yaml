@@ -9,7 +9,7 @@ services:
     git:
       # --- IMPORTANT ---
       # You MUST change this line to your GitHub repository URL
-      repository: github.com/YOUR_USERNAME/YOUR_REPO_NAME
+      repository: github.com/UNIQUEPHOEING/telegram-downloader-bot
       branch: main
     
     build:
@@ -26,4 +26,5 @@ services:
       - key: BOT_TOKEN
         scope: secret
         # This links to the Secret you will create in the Koyeb dashboard
+
         valueFrom: my-bot-token
